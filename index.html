@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour de France</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>This is the Tour de France Page</h1>
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'general')">General Classification</button>
+        <button class="tablinks" onclick="openTab(event, 'green')">Green Jersey</button>
+        <button class="tablinks" onclick="openTab(event, 'mountains')">Mountains Jersey</button>
+        <button class="tablinks" onclick="openTab(event, 'white')">White Jersey</button>
+    </div>
+    <div id="general" class="tabcontent"></div>
+    <div id="green" class="tabcontent"></div>
+    <div id="mountains" class="tabcontent"></div>
+    <div id="white" class="tabcontent"></div>
+</body>
+<script src="app.js" type="module"></script>
+</html>
